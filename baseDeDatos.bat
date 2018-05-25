@@ -1,0 +1,1 @@
+echo y | C:\xampp\php\php.exe artisan migrate

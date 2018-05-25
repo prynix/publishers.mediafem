@@ -1,0 +1,507 @@
+html,
+body {
+    background-color: #f5f5f5;
+    font-family: helvetica, arial, sans-serif;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    color: #7FB719;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 65px;
+    display: inline-block;
+}
+
+h2 {
+    border-bottom: 1px solid #dad7d0;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px 20px;
+    padding-bottom: 10px;
+}
+
+h2 a.more {
+    float: right;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+/* *****************************************************************************
+ * LOADER
+ **************************************************************************** */
+.great-icon { 
+    background: url("../images/big_icon_ok.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding-top: 130px;
+}
+
+
+/* *****************************************************************************
+ * LOADER
+ **************************************************************************** */
+.pace .pace-progress {
+    background: #98d920;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 2px;
+
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+
+/* *****************************************************************************
+ * BOOTSTRAP THEME
+ **************************************************************************** */
+.row {
+    margin-bottom: 20px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    box-shadow: none;
+}
+
+.btn-default {
+    background-color: #fff;
+    border-color: #eee;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #fff;
+    /*border-color: #dad7d0;*/
+    border-color: #98d920;
+}
+
+.btn-primary,
+.btn-success {
+    background-color: #98d920 !important;
+    border-color: #98d920 !important;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open > .btn-success {
+    background-color: #7FB719 !important;
+    border-color: #7FB719 !important;
+}
+
+.btn-primary[disabled=""],
+.btn-success[disabled=""] {
+    background-color: #7FB719 !important;
+    border-color: #7FB719 !important;
+    color: #ccc;
+}
+
+.btn-marginR20 {
+    margin-right: 20px;
+}
+
+span.dropdown {
+    display: inline-block;
+    height: 60px;
+}
+
+.dropdown-menu > li > a {
+    color: #7FB719;
+    background-color: #fff;
+    line-height: 25px;
+    transition: all 0.4s ease 0s;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #7FB719;
+}
+
+.dropdown-menu > li.more {
+    margin: 0;
+}
+
+.dropdown-menu > li.more > a:hover,
+.dropdown-menu > li.more > a:focus {
+    color: #7FB719;
+    background-color: #fff;
+}
+
+.badge.notification-red {
+    background-color: #f85d2c !important;
+}
+
+.badge.notification-green {
+    background-color: #5cb85c !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control.active {
+    border-color: #7FB719 !important;
+    box-shadow: none;
+}
+
+.form-control[disabled]:hover,
+.form-control[disabled]:focus,
+.form-control[disabled]:active,
+.form-control[disabled].active {
+    border-color: #ccc !important;
+}
+
+.has-error .form-control:hover,
+.has-error .form-control:focus,
+.has-error .form-control:active,
+.has-error .form-control.active {
+    border-color: #a94442 !important;
+}
+
+.has-success .form-control:hover,
+.has-success .form-control:focus,
+.has-success .form-control:active,
+.has-success .form-control.active {
+    border-color: #3c763d !important;
+}
+
+.panel-body {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.table tr td, .table tr th {
+	white-space: nowrap !important;
+}
+
+
+/* *****************************************************************************
+ * LOGIN FORM
+ **************************************************************************** */
+#loginForm {
+    margin-top: 15%;
+}
+
+#loginForm a {
+    font-weight: 700;
+}
+
+#loginForm .logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* *****************************************************************************
+ * REGISTER FORM
+ **************************************************************************** */
+#registerForm {
+    margin-top: 10%;
+}
+
+#registerForm a {
+    font-weight: 700;
+}
+
+#registerForm .logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* *****************************************************************************
+ * FORGOT FORM
+ **************************************************************************** */
+#forgotForm {
+    margin-top: 20%;
+}
+
+#forgotForm a {
+    font-weight: 700;
+}
+
+#forgotForm .logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* *****************************************************************************
+ * FLAGS
+ **************************************************************************** */
+.flag {
+    background: transparent url('../images/flags.png') top left no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 21px;
+}
+
+ul[aria-labelledby="userLanguaje"] {
+    min-width: 125px !important;
+}
+
+ul[aria-labelledby="userLanguaje"] li {
+    line-height: 2;
+}
+
+ul[aria-labelledby="userLanguaje"] li img {
+    cursor: pointer;
+}
+
+
+
+/* *****************************************************************************
+ * WRAPPER
+ **************************************************************************** */
+#wrapper {
+    padding-left: 250px;
+    transition: all 0.4s ease 0s;
+}
+
+
+/* *****************************************************************************
+ * SIDEBAR
+ **************************************************************************** */
+#sidebar-wrapper {
+    background: #383e4b;
+    height: 100%;
+    left: 230px;
+    margin-left: -230px;
+    overflow-y: auto;
+    position: fixed;
+    width: 230px;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 230px;
+}
+
+.sidebar-nav li {
+    line-height: 45px;
+    text-indent: 10px;
+}
+
+.sidebar-nav li div {
+    font-size: 12px;
+}
+
+.sidebar-nav li div li {
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    color: #fff;
+    display: block;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:hover,
+.sidebar-nav li a:focus,
+.sidebar-nav li div {
+    background-color: #2d323d;
+}
+
+.sidebar-nav li a i {
+    padding-right: 10px;
+}
+
+.sidebar-nav li a i.fa.pull-right {
+    margin-top: 17px;
+    padding-right: 20px;
+}
+
+.sidebar-nav > .sidebar-brand {
+    background-color: #98D920;
+    height: 100px;
+    line-height: 91px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.sidebar-nav > li.sidebar-brand a:hover,
+.sidebar-nav > li.sidebar-brand a:active,
+.sidebar-nav > li.sidebar-brand a:focus {
+    background-color: #98D920;
+}
+
+.sidebar-nav-bottom {
+    bottom: 0;
+    color: #a7b1c2;
+    font-size: 9px;
+    padding: 20px;
+    position: absolute;
+}
+
+
+/* *****************************************************************************
+ * USER NAV
+ **************************************************************************** */
+.user-top-nav {
+    float: right;
+    margin-right: 17px;
+}
+
+.user-top-nav .dropdown-menu[aria-labelledby="userMenu1"],
+.user-top-nav .dropdown-menu[aria-labelledby="userNotifications"] {
+    min-width: 180px !important;
+}
+
+.user-top-nav .dropdown-menu .user-email {
+    color: #333;
+    cursor: default;
+    font-size: 12px;
+    line-height: 13px;
+    min-height: 20px;
+    padding: 5px 20px 0;
+    text-align: center;
+}
+
+
+/* *****************************************************************************
+ * PAGE CONTENT
+ **************************************************************************** */
+#page-content-wrapper {
+    padding-right: 17px;
+    padding-top: 17px;
+    width: 100%;
+}
+
+.content-header {
+    height: 65px;
+    line-height: 65px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.inset {
+    padding: 20px;
+}
+
+
+/* *****************************************************************************
+ * WIDGETS
+ **************************************************************************** */
+.widget {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+}
+
+.revenue-widget .value,
+.data-widget .value {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.revenue-widget .period,
+.data-widget .period {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.revenue-widget .report,
+.data-widget .report {
+    padding-top: 5px;
+}
+
+/* *****************************************************************************
+ * REPORTES
+ **************************************************************************** */
+table.report tfoot tr {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* *****************************************************************************
+ * RESPONSIVE
+ **************************************************************************** */
+@media (max-width:767px) {
+
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        left: 0;
+    }
+
+    #wrapper.active {
+        position: relative;
+        left: 230px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+        left: 230px;
+        width: 230px;
+        transition: all 0.4s ease 0s;
+    }
+
+    #menu-toggle {
+        display: inline-block;
+        margin-top: -8px;
+    }
+
+    .inset {
+        padding: 15px;
+    }
+}

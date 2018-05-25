@@ -1,0 +1,20 @@
+<form action="/register" method="POST">
+
+    @if ($messages && $messages->has('user_email')){
+        {{ $messages->first('user_email', ':message') }}
+    @endif
+    <label for="user_email">Correo electrónico:</label>
+    <input type="email" name="user_email" id="user_email" placeholder="example@domain.com" required="required" />
+
+    @if ($messages && $messages->has('user_password')){
+        {{ $messages->first('user_password', ':message') }}
+    @endif
+    <label for="user_password">Contraseña:</label>
+    <input type="password" name="user_password" id="user_password" placeholder="" required="required" />
+
+    <input type="submit" name="user_submit" value="Registrarse" />
+</form>
+
+
+
+{{ isset($messages) ? $messages->first('password', ':message') : '' }}

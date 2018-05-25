@@ -1,0 +1,33 @@
+05-01-2015, 17:51 - Authenticate: Trying to get property of non-object
+05-01-2015, 17:51 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:03 - Authenticate: preg_match() expects parameter 2 to be string, object given
+06-01-2015, 10:03 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:05 - Authenticate: preg_match() expects parameter 2 to be string, object given
+06-01-2015, 10:05 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:05 - Authenticate: preg_match() expects parameter 2 to be string, object given
+06-01-2015, 10:05 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:06 - Authenticate: preg_match() expects parameter 2 to be string, object given
+06-01-2015, 10:06 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:06 - Authenticate: preg_match() expects parameter 2 to be string, object given
+06-01-2015, 10:06 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:09 - Authenticate: Trying to get property of non-object
+06-01-2015, 10:09 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:09 - Authenticate: Trying to get property of non-object
+06-01-2015, 10:09 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:10 - Authenticate: Trying to get property of non-object
+06-01-2015, 10:10 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:10 - Authenticate: Trying to get property of non-object
+06-01-2015, 10:10 - Refresh token: Fallo en la autenticacion.
+06-01-2015, 10:10 - Authenticate: Trying to get property of non-object
+06-01-2015, 14:53 - New Publisher prueba06012015.adtomatik.com: Undefined property: stdClass::$id
+06-01-2015, 15:24 - New Publisher prueba06012015.adtomatik.com: placements:Invalid data type for categories "1018"
+06-01-2015, 15:27 - New Publisher prueba06012015.adtomatik.com: All placements should have at least one category
+06-01-2015, 17:29 - New Site prueba060120151.adtomatik.com: All placements should have at least one category
+06-01-2015, 17:37 - New Site prueba060120152.adtomatik.com: All placements should have at least one category
+06-01-2015, 17:39 - New Site prueba060120153.adtomatik.com: All placements should have at least one category
+06-01-2015, 17:45 - New Site prueba060120154.adtomatik.com: All placements should have at least one category
+06-01-2015, 17:47 - New Site prueba060120155.adtomatik.com: All placements should have at least one category
+07-01-2015, 15:01 - Categorize Site prueba07012015.adtomatik.com: Can't set value for read only property created
+07-01-2015, 15:01 - Categorize Site prueba070120151.adtomatik.com: Can't set value for read only property created
+07-01-2015, 15:06 - Categorize Site prueba07012015.adtomatik.com: Can't set value for read only property created
+07-01-2015, 15:06 - Categorize Site prueba070120151.adtomatik.com: Can't set value for read only property created
